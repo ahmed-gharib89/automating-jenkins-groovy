@@ -5,7 +5,9 @@ import java.text.SimpleDateFormat
 @NonCPS
 def call(Map config=[:]){
     def dir = new File(pwd());
-    
+    dir.eachFileRecurse(FileType.ANY){ file ->
+        println(file.name)
+    }
     new File(dir.path + '/releasenotes.txt').withWriter('utf-8') 
     { 
         writer -> 
