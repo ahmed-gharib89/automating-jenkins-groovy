@@ -1,0 +1,221 @@
+.git
+branches
+	description	73
+hooks
+	applypatch-msg.sample	478
+	commit-msg.sample	896
+	post-update.sample	189
+	pre-applypatch.sample	424
+	pre-commit.sample	1643
+	pre-merge-commit.sample	416
+	pre-push.sample	1348
+	pre-receive.sample	544
+	update.sample	3635
+	fsmonitor-watchman.sample	4655
+	pre-rebase.sample	4898
+	prepare-commit-msg.sample	1492
+info
+	exclude	240
+refs
+heads
+	master	41
+	new_features	41
+tags
+remotes
+origin
+	master	41
+	new_features	41
+	HEAD	23
+	config	308
+objects
+pack
+info
+ed
+	d488d5998f5efd98d7069d2593415803461929	49
+db
+	b7eb165aeef7bbd64c1e8ee46d6a9bc1187fdd	54
+	fbdf72d2d847f2411982af8d756ff9582ba7a6	171
+14
+	81caf42e1b59b6adfbc00edaae2e11b295a0a4	134
+a8
+	64c6ddb40a3eea5d220268bc65669c2c69b815	141
+ab
+	0cc1933a76335c3582dc03f7a8857d2e617c9b	132
+4e
+	6ff09f5065a4f9d1941ab6e1d9ed48daa9b1f7	89
+ea
+	14283e5644d24ec16a7886d0256f32775f879e	166
+	835ffaf7995f3f9100dea00f72368874d2c080	277
+94
+	b09a4c484306460c29975e0fe7d7c536225d29	89
+	08bf1717be5ee3df35ffdb14c5dbada5d83a3d	147
+a6
+	38df578bb63be49189477034fcfa19db325976	170
+40
+	a75c507211e766e37c55d428389cb4f0436126	139
+0c
+	fc8dd738a87b2350d88fecc51836d1caae23e6	89
+dd
+	ac6c33402ca91ef69d592502c64507c6b91f3e	172
+9e
+	e9a597b3006a1886d4d88a7ed60faf5a827a28	153
+	0c5a0b50a0e6da4ffc5a437a9b30e26129e533	277
+	287b8f8d37dd66b491c785449cd7feb9701bd8	161
+36
+	c3da0f5e27a3e2b0e4958b66128df6791ee3bb	89
+78
+	c72af6637c193d66529f28bd393be3bef1ab58	171
+fa
+	15437133c7c73808e9a55c8cd9820c1cdeca18	158
+17
+	a6228fcdcfbca425f470d020fd51215140fa5e	89
+a4
+	a18abb45a3ccdf652fcc297f0cab851fdc638a	165
+	db72386a5d2011bb18b58b66b935a0b55455d3	693
+34
+	2e998c39df65cb5d78f08eb16ea9fe78d2459c	89
+91
+	3467010deb5a087fbb958ae14d474cfee1782d	162
+d3
+	7892a439723bac5379125e7a3c2fddcc066a4a	146
+c8
+	b133d62b5b239267ee966e6bf215b3b4a79d92	12792
+cf
+	28b75c40df3a6d0e69717ac0288f48e18e8b7f	4048
+	a4009bb7c13f22a7d50ee16ea537a7d6991f97	562
+d4
+	53e9a07115e38f587d8e299b4fc2d68f0f4d74	139
+d5
+	1839a1610252d6775a34b10fad5108a9a1846b	462
+06
+	0762a4b2eb7bca6ada6da43c62969bbefa2b72	164
+ba
+	52d8870020c6cda9b9014c547dbba9d54db89f	223
+bf
+	31a3b8afdd1f845921dcca79a54b5e38f86d40	1845
+	e7e59ff1e34e7cece89cde5bbdfd64254b76c8	739
+58
+	88343e7187f3b67b1cf55563eda6c56fa7c01b	79407
+15
+	cfaaf8950da80e4dcb631fd02ea55598e4dd49	171
+48
+	b8c87e25128ffa6a52bd282e59fb18b911c965	130
+35
+	786882531821f92a66ddc779e26f7e28fcbc5c	157
+1c
+	7a147d564744b88ef876b6b1d72bd9b62330fe	504
+d2
+	12750c5469642d1002b30836aa44de11b0b6a9	217
+f6
+	2d1dc6d382ee4c504a88a3a895b3a74c492970	360
+	ee7e2ff3fcdf76003a917db1e8570fb9f881a4	309
+2e
+	2f1fa22a2feffeb0d065aea5d90537be929bf0	57
+09
+	e87d07f7405f737e7ae06fe98e13e0da4ccee3	179
+89
+	b0b2dcc6cd2c533293f0a76a14a4264df8eacb	16781
+c1
+	f6cf1845e9b7afa3f4336932fbf00c0c02b739	54
+8a
+	59fb7a1b7c90c5e2900c30ca788f704b461da4	48
+92
+	c9081c770f9addf28e1ddabc027f57047c7f8e	84
+8e
+	caddb5194945121fb8c1f05244f82790337637	53
+3a
+	9b6e9489a576a7b5580973c9edc3bcabed85e8	216
+da
+	c4af727ef211d0ed4bfcecb00eb7e36af572fd	56
+0f
+	55b2af5b8ff45d9eed40a5a2a3acd44c065b50	48
+59
+	2b016cfac1256f0f4ff35411a055e3e0012863	56
+b8
+	23bd107e7055533ce5c4c9d34ca530fd27ded0	240
+55
+	fc710612389bcc0f8921ecaa37d9dd3db0fc85	208
+b3
+	c6f69c785ee49bf9a9f1e220b0804a7c1f0a28	161
+8d
+	355b8298f0ecd603b69c2b7fbcce687ab2a861	168
+ec
+	92aae94099cca155e430123c571bf62702100f	169
+	87d0e97c44d90438b083c680154a2444f1ccc2	45
+90
+	7ac816bf897b91ee2173991d5aab94e3ebea44	161
+b2
+	96f38a39d54e82858ab7b4f5e7498d6182fd69	178
+e6
+	9de29bb2d1d6434b8b29ae775ad8c2e48c5391	15
+e5
+	05ebcc13c362d005cd56e5fa4b40284169cbe0	181133
+f5
+	ba0eb7622a731b77e1b77646e6af16e32c1c80	87
+1e
+	b758be6bcfa63315db49361109f278ada5bf96	49
+19
+	2daf7dfc1e67e4c594c546c8f2379181381eb9	48
+af
+	324e458f2f1310fdcb455c7364e96f9789686a	53
+24
+	ea59448aedda5ed59887e674be59ecadfc3265	45
+e0
+	012aae31f562614b48a7f8794610d8b3a98b67	128
+9d
+	7b2e3603d036c60d61f5915af18340c48a1df5	172
+	index	3524
+	COMMIT_EDITMSG	19
+logs
+	HEAD	2669
+refs
+heads
+	master	1466
+	new_features	646
+remotes
+origin
+	master	1350
+	new_features	150
+	FETCH_HEAD	261
+	ORIG_HEAD	41
+	README.md	190
+	.gitignore	299
+ConsoleApp1
+.vs
+ConsoleApp1
+DesignTimeBuild
+	.dtbcache	223498
+v16
+	.suo	21504
+	ConsoleApp1.csproj	178
+	ConsoleApp1.sln	1126
+	Program.cs	195
+bin
+Debug
+netcoreapp3.1
+	ConsoleApp1.deps.json	425
+	ConsoleApp1.dll	4608
+	ConsoleApp1.exe	169984
+	ConsoleApp1.pdb	672
+	ConsoleApp1.runtimeconfig.dev.json	236
+	ConsoleApp1.runtimeconfig.json	154
+obj
+	ConsoleApp1.csproj.nuget.cache	149
+	ConsoleApp1.csproj.nuget.dgspec.json	1993
+	ConsoleApp1.csproj.nuget.g.props	1166
+	ConsoleApp1.csproj.nuget.g.targets	294
+Debug
+netcoreapp3.1
+	ConsoleApp1.AssemblyInfo.cs	1006
+	ConsoleApp1.AssemblyInfoInputs.cache	42
+	ConsoleApp1.assets.cache	192
+	ConsoleApp1.csproj.FileListAbsolute.txt	924
+	ConsoleApp1.csprojAssemblyReference.cache	104204
+	ConsoleApp1.dll	4608
+	ConsoleApp1.exe	169984
+	ConsoleApp1.pdb	672
+	project.assets.json	2020
+	Jenkinsfile	528
+	releasenotes.groovy	194
+	listFiles.groovy	441
+	releasenote.txt	0
