@@ -1,4 +1,4 @@
-node {
+node ('Agent') {
     stage('SCM') {
 	echo 'Gathering code from version control'
     }
