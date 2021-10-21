@@ -5,10 +5,10 @@ node ('DOTNETCORE') {
     }
     stage('Build') {
         echo 'Building....'
-        // sh '''
-        //     dotnet --version
-        //     dotnet build ConsoleApp1
-        // '''
+        sh '''
+            dotnet --version
+            dotnet build ConsoleApp1
+        '''
         echo 'release notes ...'
         sh 'ls -lah'
         sh 'pwd'
