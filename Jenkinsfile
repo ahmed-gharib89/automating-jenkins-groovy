@@ -23,7 +23,7 @@ node ('DOTNETCORE') {
     stage ('Completed') {
         echo 'Completed ...'
     }
-    post {
+    stage ('Success') {
         success {
             echo 'Success ...'
             // Archive the build artifacts and releasenotes.txt
