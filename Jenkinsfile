@@ -10,6 +10,7 @@ node ('DOTNETCORE') {
             dotnet build ConsoleApp1
         '''
         echo 'release notes ...'
+        sh 'ls -lah'
         releasenotes()
     }
     stage('Test') {
