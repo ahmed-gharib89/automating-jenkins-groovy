@@ -1,14 +1,14 @@
-node ('DOTNETCORE') {
+node ('master') {
     stage('SCM') {
 	echo 'Gathering code from version control'
     git branch: "${branch}", url: "https://github.com/ahmed-gharib89/automating-jenkins-groovy"
     }
     stage('Build') {
         echo 'Building....'
-        sh '''
-            dotnet --version
-            dotnet build ConsoleApp1
-        '''
+        // sh '''
+        //     dotnet --version
+        //     dotnet build ConsoleApp1
+        // '''
         echo 'release notes ...'
         sh 'ls -lah'
         sh 'pwd'
