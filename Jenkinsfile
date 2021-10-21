@@ -11,6 +11,7 @@ node ('DOTNETCORE') {
         '''
         echo 'release notes ...'
         sh 'ls -lah'
+        sh 'pwd'
         releasenotes()
     }
     stage('Test') {
