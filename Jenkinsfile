@@ -9,6 +9,8 @@ node ('DOTNETCORE') {
             dotnet --version
             dotnet build ConsoleApp1
         '''
+        echo 'release notes ...'
+        releasenotes()
     }
     stage('Test') {
         echo 'Testing....'
