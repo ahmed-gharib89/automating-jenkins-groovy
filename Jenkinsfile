@@ -31,6 +31,10 @@ node ('DOTNETCORE') {
         echo 'Success ...'
         sh 'ls -lah'
         // Archive the build artifacts and releasenotes.txt
-        // archiveArtifacts artifacts: '*releasenotes.txt', followSymlinks: false
+        if (env.NODE_NAME == 'master') {
+            archiveArtifacts artifacts: '*releasenotes.txt', followSymlinks: false
+        } else {
+            "Echo can't capture artifactes on ${env.NODE_NAME}"
+        }
     }
 }
