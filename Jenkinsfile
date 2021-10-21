@@ -11,4 +11,7 @@ node ('Agent') {
     stage('Deploy') {
         echo 'Deploying....'
     }
+    stage ('Completed') {
+        echo 'Completed ...'
+    }
 }
