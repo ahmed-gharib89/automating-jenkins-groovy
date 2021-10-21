@@ -26,6 +26,6 @@ node ('DOTNETCORE') {
     stage ('Success') {
         echo 'Success ...'
         // Archive the build artifacts and releasenotes.txt
-        archiveArtifacts artifacts: 'releasenotes.txt', followSymlinks: false
+        archiveArtifacts artifacts: '*releasenotes.txt', followSymlinks: false
     }
 }
