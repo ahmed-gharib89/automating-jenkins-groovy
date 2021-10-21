@@ -1,6 +1,7 @@
 node ('Agent') {
     stage('SCM') {
 	echo 'Gathering code from version control'
+    echo 'New Features'
     }
     stage('Build') {
         echo 'Building....'
