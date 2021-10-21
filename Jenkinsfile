@@ -30,7 +30,7 @@ node ('master') {
     stage ('Success') {
         echo 'Success ...'
         sh 'ls -lah'
-        Archive the build artifacts and releasenotes.txt
+        // Archive the build artifacts and releasenotes.txt
         archiveArtifacts artifacts: '*releasenotes.txt', followSymlinks: false
     }
 }
