@@ -10,8 +10,9 @@ def call(Map config=[:])
 {
     def dir = new File(pwd());
     println(dir)
-
-    new File(dir.path + '/releasenotes.txt').withWriter('utf-8') 
+    println("Error is coming...")
+    try {
+        new File(dir.path + '/releasenotes.txt').withWriter('utf-8') 
     { 
         writer -> 
         
@@ -45,4 +46,14 @@ def call(Map config=[:])
             }        
         } 
     }
+    }
+
+    catch (Exception e) {
+        println("Error is coming...")
+        println(e)
+    }
+    finaly {
+        println("Done..")
+    }
+    
 }
