@@ -49,10 +49,10 @@ def call(Map config=[:])
     }
 
     catch (Exception e) {
-        println("Error is coming...")
+        println("Error accured!!")
         println(e)
     }
-    finaly {
+    finally {
         println("Done..")
     }
     
