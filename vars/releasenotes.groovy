@@ -9,6 +9,7 @@ import hudson.model.*
 def call(Map config=[:])
 {
     def dir = new File(pwd());
+    println(dir)
 
     new File(dir.path + '/releasenotes.txt').withWriter('utf-8') 
     { 
