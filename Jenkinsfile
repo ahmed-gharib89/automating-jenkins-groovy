@@ -1,7 +1,7 @@
 node ('DOTNETCORE') {
     stage('SCM') {
 	echo 'Gathering code from version control'
-    git branch: "${branch}", utl: "https://github.com/ahmed-gharib89/automating-jenkins-groovy"
+    git branch: "${branch}", url: "https://github.com/ahmed-gharib89/automating-jenkins-groovy"
     }
     stage('Build') {
         echo 'Building....'
