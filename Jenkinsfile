@@ -5,10 +5,14 @@ node ('master') {
     }
     stage('Build') {
         echo 'Building....'
-        sh '''
-            dotnet --version
-            dotnet build ConsoleApp1
-        '''
+        if (env.NODE_NAME == 'DOTNETCORE') {
+            sh '''
+                dotnet --version
+                dotnet build ConsoleApp1
+            '''
+        } else {
+            echo "Skipping build on ${env.NODE_NAME}"
+        }
         echo 'release notes ...'
         sh 'ls -lah'
         sh 'pwd'
