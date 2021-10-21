@@ -10,7 +10,7 @@ def call(Map config=[:])
 {
     def dir = new File(pwd());
     println(dir)
-    println("Error is coming...")
+    println("Start groovy function ....")
     try {
         new File(dir.path + '/releasenotes.txt').withWriter('utf-8') 
     { 
@@ -46,6 +46,7 @@ def call(Map config=[:])
             }        
         } 
     }
+    println("No Error Happend woohooo!!!")
     }
 
     catch (Exception e) {
