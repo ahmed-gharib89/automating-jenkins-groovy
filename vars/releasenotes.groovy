@@ -46,7 +46,9 @@ def call(Map config=[:])
             }        
         } 
     }
-    println("No Error Happend woohooo!!!")
+        println("No Error Happend woohooo!!!")
+        // Archive the build artifacts and releasenotes.txt
+        archiveArtifacts artifacts: '*releasenotes.txt', followSymlinks: false
     }
 
     catch (Exception e) {
